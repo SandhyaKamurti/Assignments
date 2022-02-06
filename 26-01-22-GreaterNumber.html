@@ -4,14 +4,14 @@
       var n1=parseInt(prompt("Enter number1"));
       var n2=parseInt(prompt("Enter number2"));
       var n3=parseInt(prompt("Enter number3"));
-      if (n1 >= n2 && n1 >= n3){
-            console.log("n1 is greater");
+      if (n1 <= n2 && n1 <= n3){
+            console.log("n1 is minimum");
       }
-      if (n2 >= n1 && n2 >= n3){
-            console.log("n2 is greater");
+      else if (n2 <= n1 && n2 <= n3){
+            console.log("n2 is minimum");
       }
-      if (n3 >= n1 && n3 >= n2){
-            console.log("n3 is greater");
+      else{
+            console.log("n3 is minimum");
       }
     </script>
   </body>
